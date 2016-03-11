@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         //这是我第二次修改的地方
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         Toast.makeText(this,"我写了一个吐司",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"我写了第二个一个吐司",Toast.LENGTH_LONG).show();
+
         setSupportActionBar(toolbar);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
