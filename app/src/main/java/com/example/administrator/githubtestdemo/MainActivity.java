@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         Toast.makeText(this,"我写了一个吐司",Toast.LENGTH_LONG).show();
         Toast.makeText(this,"我写了第二个一个吐司",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"我写了第三个吐司",Toast.LENGTH_LONG).show();
 
         setSupportActionBar(toolbar);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
