@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         //这是我修改的地方
         //这是我第二次修改的地方
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toast.makeText(this,"我写了一个吐司",Toast.LENGTH_LONG).show();
         setSupportActionBar(toolbar);
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
